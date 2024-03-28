@@ -1,4 +1,67 @@
 .app {
   margin: 0 auto;
+  padding: 0;
   max-width: 1000px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+@media (max-width: 992px) {
+}
+@media (max-width: 768px) {
+}
+
+@media (max-width: 576px) {
+  .d-flex {
+    align-items: flex-end;
+  }
+
+  .add-form {
+    flex-direction: column;
+  }
+  .add-form input {
+    width: 90vw;
+    margin: 15px 0;
+    align-items: center;
+  }
+
+  .btn-outline-light {
+    width: 200px;
+  }
+  h3 {
+    text-align: center;
+  }
+  .btn-group {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+  }
+  .btn {
+    margin-bottom: 10px;
+    border-radius: 3px !important;
+  }
+
+  .list-group-item {
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: center !important;
+  }
+
+  .list-group-item input {
+    max-width: 30vw;
+    overflow: hidden;
+    font-size: 18px;
+    text-overflow: ellipsis;
+  }
+
+  .list-group-item span {
+    width: 40vw;
+    overflow: hidden;
+    font-size: 18px;
+    text-overflow: ellipsis;
+  }
+}
+
+@media (max-width: 340px) {
 }
