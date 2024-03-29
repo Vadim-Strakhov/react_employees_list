@@ -16,6 +16,10 @@
     align-items: flex-end;
   }
 
+  .add-form.d-flex {
+    align-items: center;
+  }
+
   .add-form {
     flex-direction: column;
   }
